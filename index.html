@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching the following</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Matching following by drawing lines:-</h2>
+
+    <main class="container">
+        <div>
+            <ul class="draggable-list">
+                <li id="e1" draggable="true">
+                    <img src="human.png" width="16%">
+                    1. Human beings
+                </li>
+                <li id="e2" draggable="true">
+                    <img src="fish.png" width="16%">
+                    2. Fish</li>
+                <li id="e3" draggable="true">
+                    <img src="bird.png" width="16%">
+                    3. Birds</li>
+                <li id="e4" draggable="true">
+                    <img src="snake.png" width="14%">
+                    4. Snake</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="draggable-list">
+                <li id="s2" draggable="true">Swim with their fins</li>
+                <li id="s1" draggable="true">Walk with their legs</li>
+                <li id="s4" draggable="true">crawl on the ground</li>
+                <li id="s3" draggable="true">fly with their wings</li>
+            </ul>
+        </div>
+    </main>
+
+    <div id="endMessage">
+        <h4>Well done! Your Score</h4>
+        <p id="demo"></p>
+        <table>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+            </tr>
+            <tr>
+                <td>Human beings</td>
+                <td>Walk with their legs</td>
+            </tr>
+            <tr>
+                <td>Fish</td>
+                <td>Swim with their fins</td>
+            </tr>
+            <tr>
+                <td>Birds</td>
+                <td>fly with their wings</td>
+            </tr>
+            <tr>
+                <td>Snake</td>
+                <td>crawl on the ground</td>
+            </tr>
+        </table>
+
+        <button onclick="playAgain()">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
